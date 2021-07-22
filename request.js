@@ -30,7 +30,23 @@ app.get('/changeColor', function (req, res) {
     }
     if(req.query.p3 !== undefined){
         file.p3 = parseInt(req.query.p3);
+    }else{
         file.p3 = file.p3;
+    }
+    if(req.query.m1 !== undefined){
+        file.m1 = parseInt(req.query.m1);
+    }else{
+        file.m1 = file.m1;
+    }
+    if(req.query.m2 !== undefined){
+        file.m2 = parseInt(req.query.m2);
+    }else{
+        file.m2 = file.m2;
+    }
+    if(req.query.m3 !== undefined){
+        file.m3 = parseInt(req.query.m3);
+    }else{
+        file.m3 = file.m3;
     }
 
     fs.writeFile(fileName, JSON.stringify(file), function writeJSON(err) {
