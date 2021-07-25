@@ -10,7 +10,7 @@ Michel Schwarz
 This is the backend for the Tangible User Doll
 
 It is an alternitive for the ThingSpeak connection.
-The Code to communicate with the Docker-Backend can be found in this Repo: (TUD-Communication Branch: dockerAPI)[https://github.com/Tangible-User-Doll/TUD-Communication/tree/dockerAPI]
+The Code to communicate with the Docker-Backend can be found in this Repo: [TUD-Communication Branch: dockerAPI](https://github.com/Tangible-User-Doll/TUD-Communication/tree/dockerAPI)
 
 You can build the image with: 
 ```
